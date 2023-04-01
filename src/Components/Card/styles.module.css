@@ -1,0 +1,31 @@
+@import url('../../colors.css');
+
+.container{
+    width: 300px;
+    padding: 3rem;
+}
+
+.container .name{
+    margin-top: 1.5rem;
+    font-family: 'Big Shoulders Display';
+    color : var(--very-light-gray);
+}
+
+.container .text{
+    margin-top: 1.5rem;
+    color : var(--transparent-white);
+}
+
+.container .btn{
+    margin-top: 5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    text-transform: none;
+    border : 2px solid var(--very-light-gray);
+    background-color: var(--very-light-gray);
+}
+
+.container .btn:hover{
+    
+    background-color: transparent;
+}

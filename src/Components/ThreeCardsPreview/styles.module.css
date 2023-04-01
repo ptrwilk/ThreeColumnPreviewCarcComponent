@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    border-radius: 0.6rem;
+    overflow-y: hidden;
+}
+
+@media (max-width : 800px){
+    .container{
+        flex-direction: column;
+    }
+}
